@@ -1,0 +1,529 @@
+
+body {
+    font-family: sans-serif;
+}
+header{
+    /* Rectangle 1 */
+
+position: absolute;
+width: 1280px;
+height: 255px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+
+}
+.logo{
+    /* OMOCAT_Logo 1 */
+
+position: absolute;
+width: 231px;
+height: 249px;
+left: 564px;
+top: 34px;
+
+background: url(OMOCAT_Logo.png);
+
+}
+.all{
+    /* УСЕ */
+
+position: absolute;
+width: 133px;
+height: 18px;
+left: 118px;
+top: 304px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-decoration: none;
+
+color: #000000;
+
+
+}
+.all:hover{
+    color:orange;
+    
+}
+.collections{
+    /* КОЛЕКЦІЇ */
+
+position: absolute;
+width: 133px;
+height: 18px;
+left: 241px;
+top: 304px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-decoration: none;
+
+color: #000000;
+
+
+}
+.collections:hover{
+    color:orange;
+    
+}
+.apparel{
+    /* ОДЯГ */
+
+position: absolute;
+width: 133px;
+height: 18px;
+left: 438px;
+top: 304px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-decoration: none;
+
+color: #000000;
+
+
+}
+.apparel:hover{
+    color:orange;
+    
+}
+.accessories{
+    /* АКСЕСУАРИ */
+
+position: absolute;
+width: 162px;
+height: 22px;
+left: 571px;
+top: 304px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-decoration: none;
+
+color: #000000;
+
+
+}
+.accessories:hover{
+    color:orange;
+    
+}
+.collectibles{
+    /* КОЛЕКЦІЙНІ ПРЕДМЕТИ */
+
+position: absolute;
+width: 337px;
+height: 33px;
+left: 758px;
+top: 304px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-decoration: none;
+
+color: #000000;
+
+
+}
+.collectibles:hover{
+    color:orange;
+    
+}
+.info{
+    /* ІНФО */
+
+position: absolute;
+width: 133px;
+height: 18px;
+left: 1095px;
+top: 304px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-decoration: none;
+
+color: #000000;
+
+
+}
+.info:hover{
+    color:orange;
+    
+}
+
+.popular{
+    /* ПОПУЛЯРНЕ */
+
+position: absolute;
+width: 287px;
+height: 56px;
+left: 498px;
+top: 416px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+color: #000000;
+
+
+}
+.omo-img{
+    /* sunny1_1000x */
+
+position: absolute;
+width: 398px;
+height: 581px;
+left: 43px;
+top: 502px;
+
+background: url(sunny1_1000x.png);
+
+}
+.omo-h4{
+    /* SUNNY ПЛЮШ */
+
+position: absolute;
+width: 200px;
+height: 34px;
+left: 175px;
+top: 1035px;
+
+font-family: 'Sofia Sans Condensed';
+font-style: normal;
+font-weight: 300;
+font-size: 28px;
+line-height: 34px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.price-1{
+    /* $ 28.00 */
+
+position: absolute;
+width: 82px;
+height: 24px;
+left: 197px;
+top: 1086px;
+
+font-family: 'Sometype Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.kel-img{
+    /* kel1_1000x */
+
+position: absolute;
+width: 398px;
+height: 581px;
+left: 441px;
+top: 502px;
+
+background: url(kel1_1000x.png);
+
+}
+.kel-h4{
+    /* FARAWAY KEL плюш */
+
+position: absolute;
+width: 300px;
+height: 34px;
+left: 548px;
+top: 1035px;
+
+font-family: roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 28px;
+line-height: 34px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.price-2{
+    /* $ 28.00 */
+
+position: absolute;
+width: 82px;
+height: 24px;
+left: 599px;
+top: 1093px;
+
+font-family: roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.aubrey-img{
+    /* aubrey1_1000x */
+
+position: absolute;
+width: 398px;
+height: 581px;
+left: 839px;
+top: 502px;
+
+background: url(aubrey1_1000x.png);
+
+}
+.kell-h4{
+    /* FARAWAY AUBREY плюш */
+
+position: absolute;
+width: 330px;
+height: 34px;
+left: 946px;
+top: 1035px;
+
+font-family: 'Sofia Sans Condensed';
+font-style: normal;
+font-weight: 300;
+font-size: 26px;
+line-height: 34px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.price-3{
+    /* $ 28.00 */
+
+position: absolute;
+width: 82px;
+height: 24px;
+left: 1007px;
+top: 1093px;
+
+font-family: 'Sometype Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.us{
+    /* ПРО OMOCAT */
+
+position: absolute;
+width: 506px;
+height: 56px;
+left: 487px;
+top: 1254px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+color: #000000;
+
+
+}
+.sweet{
+    /* OMOCAT – це інді-бренд одягу з Лос-Анджелеса, який еклектично поєднує ілюстрацію, субкультуру аніме та вуличну моду. Оригінальний погляд OMOCAT на графічний одяг, створений у 2013 році, привернув увагу ентузіастів мистецтва, спільноти поп-культури та відомих клієнтів, таких як Crunchyroll, Porter Robinson, Hatsune Miku, Doki Doki Literature Club! і hololive Production. У 2016 році OMOCAT став першим художником у Північній Америці, який співпрацював з The Pokemon Company International, Inc., а в 2019 році OMOCAT розробив офіційну колекцію для Anime Expo, найбільшого аніме-збору в Північній Америці. */
+
+position: absolute;
+width: 574px;
+height: 420px;
+left: 96px;
+top: 1422px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+
+}
+.img{
+    /* ab67616d0000b2735613cb3b9af98d4b55d7b881 */
+
+position: absolute;
+width: 465px;
+height: 453px;
+left: 727px;
+top: 1405px;
+
+background: url(ab67616d0000b2735613cb3b9af98d4b55d7b881.jpg);
+
+}
+.bullet-h2{
+    /* ІНФОРМАЦІЙНИЙ БЮЛЕТЕЛЬ */
+
+position: absolute;
+width: 941px;
+height: 45px;
+left: 370px;
+top: 1941px;
+
+font-family: 'Anonymous Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 45px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.bullet-1 p{
+    /* email@exaple.com */
+
+position: absolute;
+width: 350px;
+height: 50px;
+left: 377px;
+top: 2084px;
+
+font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 42px;
+line-height: 25px;
+
+color: #939393;
+border-bottom: 2px solid black;
+
+
+}
+.bullet-p{
+    /* Rectangle 14 */
+
+position: absolute;
+width: 309px;
+height: 91px;
+left: 486px;
+top: 2237px;
+
+background: ;
+/* ПІДПИСАТИСЯ */
+
+position: absolute;
+width: 276px;
+height: 36px;
+left: 476px;
+top: 2265px;
+
+font-family: 'Anonymous Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 36px;
+text-decoration: none;
+/* identical to box height */
+
+color: #FFFFFF;
+
+background-color: #000000;
+
+padding: 46px;
+
+}
+footer h2{
+    /* СОЦМЕРЕЖІ */
+
+position: absolute;
+width: 267px;
+height: 11px;
+left: 525px;
+top: 2555px;
+
+font-family: 'Anonymous Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 45px;
+
+color: #000000;
+
+
+}
+.f{
+    /* facebook-logo-facebook-logo-transparent-facebook-icon-transparent-free-free-png 1 */
+
+position: absolute;
+width: 60px;
+height: 74px;
+left: 348px;
+top: 2689px;
+
+background: url(facebook-logo-facebook-logo-transparent-facebook-icon-transparent-free-free-png);
+
+}
+.t{
+    /* png-clipart-tenzo-downtown-austin-recipe-computer-icons-twitter-black-thumbnail 1 */
+
+position: absolute;
+width: 93px;
+height: 80px;
+left: 606px;
+top: 2692px;
+
+background: url(png-clipart-tenzo-downtown-austin-recipe-computer-icons-twitter-black-thumbnail.png);
+
+}
+.i{
+    /* black-instagram-icon 1 */
+
+position: absolute;
+width: 61px;
+height: 62px;
+left: 864px;
+top: 2701px;
+
+background: url(black-instagram-icon.png);
+
+}
+
+
+
+
